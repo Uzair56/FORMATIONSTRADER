@@ -115,8 +115,8 @@
 					</div> -->
 					<div class="main-div">
 						<div class="row">
-						   <div class="col-xl-1"></div>
-							<div class="col-xl-8">
+						   <div class="col-lg-1"></div>
+							<div class="col-lg-8">
 								<div class="table-responsive">
 									<table class="table table-striped">
 											<thead>
@@ -143,25 +143,70 @@
 											</thead>
 											<tbody>
 											<tr>
-												<td>John</td>
-												<td>Doe</td>
-												<td>john@example.com</td>
+												<td>2021-04-05</td>
+												<td>1</td>
+												<td>Asset</td>
+												<td>Long</td>
+												<td>Birlen Trading Center</td>
+												<td>2</td>
+												<td>500 $</td>
+												<td>400 $</td>
+												<td>900 €</td>
+												<td>2021-04-05</td>
+												<td>The best Service</td>
+												<td>Asset Class</td>
+												<td>sector</td>
+												<td>USA</td>
+												<td>Doller</td>
+												<td>5.4</td>
+												<td>100 $</td>
+
 											</tr>
 											<tr>
-												<td>Mary</td>
-												<td>Moe</td>
-												<td>mary@example.com</td>
+												<td>2021-04-05</td>
+												<td>1</td>
+												<td>Asset</td>
+												<td>Long</td>
+												<td>Birlen Trading Center</td>
+												<td>2</td>
+												<td>500 $</td>
+												<td>400 $</td>
+												<td>900 €</td>
+												<td>2021-04-05</td>
+												<td>The best Service</td>
+												<td>Asset Class</td>
+												<td>sector</td>
+												<td>USA</td>
+												<td>Doller</td>
+												<td>5.4</td>
+												<td>100 $</td>
+
 											</tr>
 											<tr>
-												<td>July</td>
-												<td>Dooley</td>
-												<td>july@example.com</td>
+												<td>2021-04-05</td>
+												<td>1</td>
+												<td>Asset</td>
+												<td>Long</td>
+												<td>Birlen Trading Center</td>
+												<td>2</td>
+												<td>500 $</td>
+												<td>400 $</td>
+												<td>900 €</td>
+												<td>2021-04-05</td>
+												<td>The best Service</td>
+												<td>Asset Class</td>
+												<td>sector</td>
+												<td>USA</td>
+												<td>Doller</td>
+												<td>5.4</td>
+												<td>100 $</td>
+
 											</tr>
 											</tbody>
 									</table>
 								</div>	
 							</div>
-						    <div class="col-xl-3"></div>
+						    <div class="col-lg-3"></div>
 					    </div>
 					 </div>	
 
