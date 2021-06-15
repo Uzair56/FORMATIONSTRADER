@@ -129,7 +129,7 @@
 												<th>Asset</th>
 												<th>Handelsplatz</th>
 												<th>Stücke</th>
-												<th>Long / Short</th>
+												<th>Long/Short</th>
 												<th>Kaufkurs</th>
 												<th>Investitionssumme</th>
 												<th>Umrechnung in Euro</th>
@@ -209,7 +209,11 @@
 									</table>
 								</div>	
 							</div>
-						    <div class="col-lg-3"></div>
+						    <div class="col-lg-3">
+								<div class="side-content">
+
+								</div>
+							</div>
 					    </div>
 					 </div>	
 
