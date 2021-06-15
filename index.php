@@ -118,9 +118,9 @@
 					</div> -->
 					<div class="main-div">
 						<div class="row">
-						   <div class="col-lg-1"></div>
-							<div class="col-lg-8">
-								<div class="table-responsive">
+						   <div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<div class="table-responsive tbable-width">
 									<table class="table table-striped">
 											<thead>
 											<tr>
@@ -209,11 +209,24 @@
 									</table>
 								</div>	
 							</div>
-						    <div class="col-lg-3">
-								<div class="side-content">
-
+						    <div class="col-lg-2 col-md-2 col-sm-2 teaserbox">
+								<h4>TeaserBox</h4>
+								<div class="teaserbox-div">
+									<h3>Mentor Programm</h3>
+									<div>
+										<p>unser nachstes 6-monatiges Mentor-Programm</p>
+									</div>
+								    <div>
+										<p>Seminar vom</p>
+										<p>03. -5.September 2021 in Munchen</p>
+									</div>
+									<div>
+										<p>Seminar vom</p>
+										<p>12. -14.November 2021 in Munchen</p>
+									</div>
 								</div>
 							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
 					    </div>
 					 </div>	
 
@@ -338,7 +351,7 @@
         </div>
         <!-- Grid column -->
 
-      </div> -->
+      </div> 
       <!-- Grid row-->
 
     </div>
