@@ -512,7 +512,7 @@
         </div>
         <!-- Grid column -->
 
-      </div> -->
+      </div> 
       <!-- Grid row-->
 
     </div>

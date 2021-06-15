@@ -1,4 +1,46 @@
 .main-div{
     margin-top: 14%;
-    
 }
+.teaserbox{
+    background-color:#F2F3F5;
+    margin-left: 2% !important;
+}
+.teaserbox h4{
+ text-align: center;
+ color:#F24F1B;
+}
+.teaserbox-div P{
+    font-size: large;
+}
+@media only screen and (max-width: 425px) {
+   .tbable-width{
+       width: 20% !important;
+   }
+   .teaserbox{
+       width: 20% !important;
+       margin-left: 12px !important;
+       padding: 12px;
+   }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .tbable-width{
+        width: 18% !important;
+    }
+    .teaserbox{
+        width: 18% !important;
+        margin-left: 12px !important;
+        padding: 12px;
+    }
+   }
+   
+  @media only screen and (max-width: 320px) {
+    .tbable-width{
+        width: 15% !important;
+    }
+    .teaserbox{
+        width: 15% !important;
+        margin-left: 12px !important;
+        padding: 12px;
+    }
+   }
