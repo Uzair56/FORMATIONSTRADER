@@ -26,9 +26,14 @@
 	<!-- <link rel="stylesheet" href="include/css/trigger.css"> -->
 	<link rel="stylesheet" href="include/css/custom.css">
 
-     <link rel="stylesheet" href="include/bootstrap.min.css">
-	<script src="include/js/modernizr.js"></script>
-
+     <!-- <link rel="stylesheet" href="include/bootstrap.min.css"> -->
+	<!-- <script src="include/js/modernizr.js"></script> -->
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -44,8 +49,18 @@
 					<div class="whiteback">
 
 						<div class="center"><a href="./" title="zur Startseite"><img src="include/images/logo.png" width="129" height="53" alt="Logo FORMATIONSTRADER"></a></div>
-
-						<button class="btn_navbar" type="button"></button>
+						<nav class="navbar navbar-default">
+						<div class="container-fluid">
+						
+							<ul class="nav navbar-nav position-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Page 1</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+							</ul>
+						</div>
+						</nav>
+						<!-- <button class="btn_navbar" type="button"></button> -->
 
 					</div>
 
@@ -54,7 +69,7 @@
 						<div class="center_inner">
 
 
-							<nav class="topnav">
+							<!-- <nav class="topnav">
 								
 
                                     <a href="" class="" title="Mein Account öffnen">Asset-Analysen</a>
@@ -67,7 +82,7 @@
 
 								
 
-							</nav>
+							</nav> -->
 
 						</div>
 
