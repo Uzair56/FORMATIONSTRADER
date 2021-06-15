@@ -18,9 +18,12 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="include/css/style.css?<?= random_int(0, 128000000) ?>">
 
-	<link rel="stylesheet" href="include/css/trigger.css">
+    <link rel="stylesheet" href="include/css/style.css">
+
+	<!-- <link rel="stylesheet" href="include/css/trigger.css"> -->
+	<link rel="stylesheet" href="include/css/custom.css">
+
      <link rel="stylesheet" href="include/bootstrap.min.css">
 	<script src="include/js/modernizr.js"></script>
 
@@ -49,17 +52,18 @@
 						<div class="center_inner">
 
 
-							<nav class="contact_nav clearfix">
+							<nav class="topnav">
+								
 
-								<ul>
+                                    <a href="" class="" title="Mein Account öffnen">Asset-Analysen</a>
 
-                                    <li><a href="mein-account.html" class="account no_transit" title="Mein Account öffnen"></a></li>
+									<a href="" class="" title="E-Mail an Formationstrader">Premium-trading</a>
 
-									<li><a href="mailto:kontakt@formationstrader.de" class="mail no_transit" title="E-Mail an Formationstrader"></a></li>
+									<a href="" class="" title="Kontaktformular">Mentorprogram</a>
+									<a href="" class="" title="Kontaktformular">Triggerlistee</a>
+									<a href="" class="" title="Kontaktformular">Forum</a>
 
-									<li><a href="kontaktformular.html" class="kontakt no_transit" title="Kontaktformular"></a></li>
-
-								</ul>
+								
 
 							</nav>
 
@@ -70,7 +74,6 @@
 				</div>
 
 				<div class="header_bottom clearfix">
-
 					<div class="center">
 
 						<div class="center_inner">
@@ -87,11 +90,13 @@
 
 	
 
-			<div class="main" role="main">						
+			<div class="main" role="main">	
 
 				<div class="center">
 
 					<div class="center_inner">
+
+					
 
 
 					</div>
@@ -103,7 +108,20 @@
 				<div class="center">
 
 					<div class="center_inner">					
+					<nav class="topnav">
+								
 
+								<a href="" class="" title="Mein Account öffnen">Asset-Analysen</a>
+
+								<a href="" class="" title="E-Mail an Formationstrader">Premium-trading</a>
+
+								<a href="" class="" title="Kontaktformular">Mentorprogram</a>
+								<a href="" class="" title="Kontaktformular">Triggerlistee</a>
+								<a href="" class="" title="Kontaktformular">Forum</a>
+
+							
+
+						</nav>
 
 					</div>
 
