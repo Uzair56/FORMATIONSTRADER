@@ -48,15 +48,18 @@
 
 					<div class="whiteback">
 
-						<div class="center"><a href="./" title="zur Startseite"><img src="include/images/logo.png" width="129" height="53" alt="Logo FORMATIONSTRADER"></a></div>
 						<nav class="navbar navbar-default">
 						<div class="container-fluid">
-						
-							<ul class="nav navbar-nav position-right">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Page 1</a></li>
-							<li><a href="#">Page 2</a></li>
-							<li><a href="#">Page 3</a></li>
+						<ul class="nav navbar-nav navbar-left">
+						<a href="./"><img src="include/images/logo.png"  alt="Logo FORMATIONSTRADER"></a></div>
+                        </ul>
+							<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">Asset-Analysen</a></li>
+							<li><a href="#">Premium-trading</a></li>
+							<li><a href="#">Mentorprogram</a></li>
+							<li><a href="#">Triggerlistee</a></li>
+							<li><a href="#">Forum</a></li>
+
 							</ul>
 						</div>
 						</nav>
@@ -228,7 +231,7 @@
 
 		</div><!-- end row push -->
 
-		<footer class="row">
+		<!-- <footer class="row">
 
 			<div class="center">
 
@@ -288,8 +291,111 @@
 
 			</div>
 
-		</footer>
+		</footer> -->
+<!-- Footer -->
+<!-- Footer -->
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
 
+  <div style="background-color: #21d192;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <!-- <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram white-text"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div> -->
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+        
+
+        
+
+       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4"> 
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> Dr. Hamed Esnaashari</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> kontakt@formationstrader.de</p>
+     
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+    <a class="dark-grey-text" href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- Footer -->
+
+<!-- Footer -->
 	</div>
 
 	
@@ -339,7 +445,7 @@
 <script src="include/js/jquery.nicescroll.js"></script>
 
 <script src="include/js/page.js?<?= random_int(0, 128000000) ?>"></script>
-
+<!-- 
 <script>
 
 	$(document).ready(function(){
@@ -401,7 +507,7 @@
 </script>
 
 <!-- google opt out -->
-
+<!-- 
 <script>
 
 	var gaProperty = 'UA-35047123-2';
@@ -422,11 +528,11 @@
 
 	}
 
-</script>
+</script> -->
 
 <!-- Google Analytics -->
 
-<script>
+<!-- <script>
 
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 
@@ -442,7 +548,7 @@
 
 	ga('send', 'pageview');
 
-</script>
+</script> --> 
 
 <!-- End Google Analytics -->
 
