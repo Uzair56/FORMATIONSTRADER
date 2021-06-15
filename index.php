@@ -31,7 +31,7 @@
 	<title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -109,36 +109,71 @@
 
 			<div class="main" role="main">	
 
-				<div class="center">
+				<!-- <div class="center"> -->
 
-					<div class="center_inner">
+					<!-- <div class="center_inner">
+					</div> -->
+					<div class="main-div">
+						<div class="row">
+						   <div class="col-xl-1"></div>
+							<div class="col-xl-8">
+								<div class="table-responsive">
+									<table class="table table-striped">
+											<thead>
+											<tr>
+												<th>Datum Orderplatzierung</th>
+												<th>ISIN</th>
+												<th>Asset</th>
+												<th>Handelsplatz</th>
+												<th>Stücke</th>
+												<th>Long / Short</th>
+												<th>Kaufkurs</th>
+												<th>Investitionssumme</th>
+												<th>Umrechnung in Euro</th>
+												<th>Datum Orderausführung </th>
+												<th>Kommentar</th>
+												<th>Assetklasse</th>
+												<th>Sektor</th>
+												<th>Land</th>
+												<th>Währung</th>
+												<th>Aktueller Kurs </th>
+												<th>Aktueller Buchgewinn</th>
 
-					
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td>John</td>
+												<td>Doe</td>
+												<td>john@example.com</td>
+											</tr>
+											<tr>
+												<td>Mary</td>
+												<td>Moe</td>
+												<td>mary@example.com</td>
+											</tr>
+											<tr>
+												<td>July</td>
+												<td>Dooley</td>
+												<td>july@example.com</td>
+											</tr>
+											</tbody>
+									</table>
+								</div>	
+							</div>
+						    <div class="col-xl-3"></div>
+					    </div>
+					 </div>	
 
-
-					</div>
-
-				</div>
+						
+				<!-- </div> -->
 
 			
 
 				<div class="center">
 
 					<div class="center_inner">					
-					<nav class="topnav">
-								
-
-								<a href="" class="" title="Mein Account öffnen">Asset-Analysen</a>
-
-								<a href="" class="" title="E-Mail an Formationstrader">Premium-trading</a>
-
-								<a href="" class="" title="Kontaktformular">Mentorprogram</a>
-								<a href="" class="" title="Kontaktformular">Triggerlistee</a>
-								<a href="" class="" title="Kontaktformular">Forum</a>
-
-							
-
-						</nav>
+				
 
 					</div>
 
