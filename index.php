@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="include/css/style.css?<?= random_int(0, 128000000) ?>">
 
 	<link rel="stylesheet" href="include/css/trigger.css">
-     <link rel="stylesheet" href="include/bootstrap.min.css">
+     <link rel="stylesheet" href="include/css/bootstrap.min.css">
 	<script src="include/js/modernizr.js"></script>
 
 </head>
