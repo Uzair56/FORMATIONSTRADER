@@ -117,117 +117,119 @@
 					<!-- <div class="center_inner">
 					</div> -->
 					<div class="main-div">
-						<div class="row">
-						   <div class="col-lg-1 col-md-1 col-sm-1"></div>
-							<div class="col-lg-8 col-md-8 col-sm-8">
-								<div class="table-responsive tbable-width">
-									<table class="table table-striped">
-											<thead>
-											<tr>
-												<th>Datum Orderplatzierung</th>
-												<th>ISIN</th>
-												<th>Asset</th>
-												<th>Handelsplatz</th>
-												<th>Stücke</th>
-												<th>Long/Short</th>
-												<th>Kaufkurs</th>
-												<th>Investitionssumme</th>
-												<th>Umrechnung in Euro</th>
-												<th>Datum Orderausführung </th>
-												<th>Kommentar</th>
-												<th>Assetklasse</th>
-												<th>Sektor</th>
-												<th>Land</th>
-												<th>Währung</th>
-												<th>Aktueller Kurs </th>
-												<th>Aktueller Buchgewinn</th>
+						<div class="container">
+							<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+								<div class="col-lg-8 col-md-8 col-sm-8">
+									<div class="table-responsive tbable-width">
+										<table class="table table-striped">
+												<thead>
+												<tr>
+													<th>Datum Orderplatzierung</th>
+													<th>ISIN</th>
+													<th>Asset</th>
+													<th>Handelsplatz</th>
+													<th>Stücke</th>
+													<th>Long/Short</th>
+													<th>Kaufkurs</th>
+													<th>Investitionssumme</th>
+													<th>Umrechnung in Euro</th>
+													<th>Datum Orderausführung </th>
+													<th>Kommentar</th>
+													<th>Assetklasse</th>
+													<th>Sektor</th>
+													<th>Land</th>
+													<th>Währung</th>
+													<th>Aktueller Kurs </th>
+													<th>Aktueller Buchgewinn</th>
 
-											</tr>
-											</thead>
-											<tbody>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+												</tr>
+												</thead>
+												<tbody>
+												<tr>
+													<td>2021-04-05</td>
+													<td>1</td>
+													<td>Asset</td>
+													<td>Long</td>
+													<td>Birlen Trading Center</td>
+													<td>2</td>
+													<td>500 $</td>
+													<td>400 $</td>
+													<td>900 €</td>
+													<td>2021-04-05</td>
+													<td>The best Service</td>
+													<td>Asset Class</td>
+													<td>sector</td>
+													<td>USA</td>
+													<td>Doller</td>
+													<td>5.4</td>
+													<td>100 $</td>
 
-											</tr>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+												</tr>
+												<tr>
+													<td>2021-04-05</td>
+													<td>1</td>
+													<td>Asset</td>
+													<td>Long</td>
+													<td>Birlen Trading Center</td>
+													<td>2</td>
+													<td>500 $</td>
+													<td>400 $</td>
+													<td>900 €</td>
+													<td>2021-04-05</td>
+													<td>The best Service</td>
+													<td>Asset Class</td>
+													<td>sector</td>
+													<td>USA</td>
+													<td>Doller</td>
+													<td>5.4</td>
+													<td>100 $</td>
 
-											</tr>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+												</tr>
+												<tr>
+													<td>2021-04-05</td>
+													<td>1</td>
+													<td>Asset</td>
+													<td>Long</td>
+													<td>Birlen Trading Center</td>
+													<td>2</td>
+													<td>500 $</td>
+													<td>400 $</td>
+													<td>900 €</td>
+													<td>2021-04-05</td>
+													<td>The best Service</td>
+													<td>Asset Class</td>
+													<td>sector</td>
+													<td>USA</td>
+													<td>Doller</td>
+													<td>5.4</td>
+													<td>100 $</td>
 
-											</tr>
-											</tbody>
-									</table>
-								</div>	
-							</div>
-						    <div class="col-lg-2 col-md-2 col-sm-2 teaserbox">
-								<h4>TeaserBox</h4>
-								<div class="teaserbox-div">
-									<h3>Mentor Programm</h3>
-									<div>
-										<p>unser nachstes 6-monatiges Mentor-Programm</p>
-									</div>
-								    <div>
-										<p>Seminar vom</p>
-										<p>03. -5.September 2021 in Munchen</p>
-									</div>
-									<div>
-										<p>Seminar vom</p>
-										<p>12. -14.November 2021 in Munchen</p>
+												</tr>
+												</tbody>
+										</table>
+									</div>	
+								</div>
+								<div class="col-lg-2 col-md-2 col-sm-2 teaserbox">
+									<h4>TeaserBox</h4>
+									<div class="teaserbox-div">
+										<h3>Mentor Programm</h3>
+										<div>
+											<p>unser nachstes 6-monatiges Mentor-Programm</p>
+										</div>
+										<div>
+											<p>Seminar vom</p>
+											<p>03. -5.September 2021 in Munchen</p>
+										</div>
+										<div>
+											<p>Seminar vom</p>
+											<p>12. -14.November 2021 in Munchen</p>
+										</div>
 									</div>
 								</div>
+								<div class="col-lg-1 col-md-1 col-sm-1"></div>
 							</div>
-							<div class="col-lg-1 col-md-1 col-sm-1"></div>
-					    </div>
+						</div>
 					 </div>	
 
 						
