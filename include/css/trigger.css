@@ -1,0 +1,243 @@
+h1.sub {
+	margin-bottom: 30px;
+}
+
+.no_table {
+	display: none;
+	color: #ff7a12;
+	margin-top: 10px;
+}
+
+.accordion_box {
+	margin: 50px 0;
+}
+
+.accordion_box table {
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 1%;
+	width: 99%;
+}
+
+.accordion_box table img {
+	margin-right: 5px;
+}
+
+.accordion_box table th,
+.accordion_box table .light_2012 {
+	font-size: 14px;
+	line-height: 40px;
+	color: #7e8489;
+	font-weight: normal;
+}
+
+.accordion_box table .pips {
+	font-size: 10px;
+	line-height: 10px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	top: -10px;
+	left: 4px;
+}
+
+.accordion_box table .monat {
+	width: 7.5%;
+}
+
+.accordion_box table th,
+.accordion_box table td {
+	border-bottom: 1px solid #c2c6c9;
+}
+
+.accordion_box table td {
+	padding-top: 10px;
+}
+
+.accordion_box table td.year {
+	width: 9%;
+	font-size: 20px;
+	line-height: 40px;
+	padding-top: 0;
+	color: #7e8489;
+}
+
+.accordion_box table .light_2012 {
+	position: relative;
+	top: -5px;
+}
+
+.accordion_box table.tab_aktien {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.accordion_box table.tab_aktien .prozent {
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.accordion_box table.tab_aktien td {
+	padding-top: 0;
+}
+
+.accordion_box table.tab_aktien .light_2012 {
+	top: 0;
+}
+
+.accordion_box table.tab_aktien img {
+	margin: -3px 2px 0 0;
+}
+
+.tab_aktuell {
+	width: 100%;
+	text-align: center;
+}
+
+.aktuell_header {
+	margin-bottom: 10px;
+}
+
+.aktuell_header p,
+.aktuell_footer p {
+	font-weight: 300;
+	line-height: 36px;
+}
+
+.aktuell_header h2 {
+	float: left;
+	font-weight: 400;
+	margin-right: 10px;
+}
+
+.aktuell th {
+	background: #f0f1f1;
+	border-bottom: 2px solid #c2c6c9;
+	height: 155px;
+	position: relative;
+	white-space: nowrap;
+}
+
+.tab_aktuell th.rotate>div {
+	width: 36px;
+	position: relative;
+	text-align: left;
+	-moz-transform: rotate(270degdeg) translate(-60px, 38px);
+	-moz-transform-origin: 0 100%;
+	-o-transform: rotate(270deg) translate(-60px, 38px);
+	-o-transform-origin: 0 100%;
+	-webkit-transform: rotate(270deg) translate(-60px, 38px);
+	-webkit-transform-origin: 0 100%;
+	transform: rotate(270deg) translate(-60px, 38px);
+	transform-origin: 0 100%;
+}
+
+.tab_aktuell th.rotate>div>span {
+	display: block;
+	padding-left: 10px;
+	width: 140px;
+	text-align: left;
+	position: relative;
+	bottom: 8px;
+}
+
+.tab_aktuell td {
+	padding: 10px 0;
+	border-right: 1px solid #e1e2e2;
+}
+
+.tab_aktuell td.last {
+	border-right: none;
+}
+
+.tab_aktuell tr.grau td {
+	background: #f6f7f7;
+}
+
+.trigger_bottom {
+	margin: 50px 0 80px;
+}
+
+.trigger_bottom .grey {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.mit_google .main {
+	padding-top: 175px;
+}
+
+.google_tab {
+	margin: 50px 0;
+}
+
+.google_tab .inner {
+	padding: 0 50px;
+}
+
+.google_tab iframe {
+	width: 100%;
+	height: 1000px;
+}
+
+.disclaimer {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+	.google_tab .inner {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.tab_aktuell th.rotate>div>span {
+		bottom: 15px;
+	}
+	.mit_google .main {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.accordion_box table,
+	.accordion_box table.tab_aktien {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.accordion_box table .light_2012 {
+		ffont-size: 12px;
+		line-height: 20px;
+	}
+	.accordion_box table .pips {
+		font-size: 8px;
+		line-height: 10px;
+		top: -10px;
+		left: 8px;
+	}
+	.accordion_box table.tab_aktien img,
+	.accordion_box table img {
+		margin-right: 0;
+	}
+	.tab_aktuell td {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.tab_aktuell th.rotate>div>span {
+		bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.no_table {
+		display: block;
+	}
+	.accordion_box,
+	.aktuell {
+		display: none;
+	}
+}
