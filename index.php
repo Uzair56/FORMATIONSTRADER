@@ -112,7 +112,6 @@
 
 	
 
-			  <div class="main" role="main">	
 
 					<div class="main-div">
 					<div class="container">
