@@ -28,11 +28,13 @@
 
      <!-- <link rel="stylesheet" href="include/bootstrap.min.css"> -->
 	<!-- <script src="include/js/modernizr.js"></script> -->
-	<title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
@@ -42,7 +44,7 @@
 
 		<div class="row push"> <!-- start row push -->
 
-			<header>
+			  <header>
 
 				<div class="header_top clearfix">
 
@@ -106,192 +108,368 @@
 
 				</div>
 
-			</header>
+			 </header>
 
 	
 
-			<div class="main" role="main">	
+			  <div class="main" role="main">	
 
-				<!-- <div class="center"> -->
-
-					<!-- <div class="center_inner">
-					</div> -->
 					<div class="main-div">
-						<div class="row">
-						   <div class="col-lg-1"></div>
-							<div class="col-lg-8">
-								<div class="table-responsive">
-									<table class="table table-striped">
-											<thead>
-											<tr>
-												<th>Datum Orderplatzierung</th>
-												<th>ISIN</th>
-												<th>Asset</th>
-												<th>Handelsplatz</th>
-												<th>Stücke</th>
-												<th>Long / Short</th>
-												<th>Kaufkurs</th>
-												<th>Investitionssumme</th>
-												<th>Umrechnung in Euro</th>
-												<th>Datum Orderausführung </th>
-												<th>Kommentar</th>
-												<th>Assetklasse</th>
-												<th>Sektor</th>
-												<th>Land</th>
-												<th>Währung</th>
-												<th>Aktueller Kurs </th>
-												<th>Aktueller Buchgewinn</th>
+					<div class="container">
+					  <ul class="nav nav-tabs">
+						<li class="active"><a href="#home">Home</a></li>
+						<li><a href="#menu1">Menu 1</a></li>
+						<li><a href="#menu2">Menu 2</a></li>
+						<li><a href="#menu3">Menu 3</a></li>
+					 </ul>
 
-											</tr>
-											</thead>
-											<tbody>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+					<div class="tab-content">
+						<div id="home" class="tab-pane fade in active">
+							<table class="table table-striped">
+								<thead>
+								<tr>
+									<th>Datum Orderplatzierung</th>
+									<th>ISIN</th>
+									<th>Asset</th>
+									<th>Handelsplatz</th>
+									<th>Stücke</th>
+									<th>Long / Short</th>
+									<th>Kaufkurs</th>
+									<th>Investitionssumme</th>
+									<th>Umrechnung in Euro</th>
+									<th>Datum Orderausführung </th>
+									<th>Kommentar</th>
+									<th>Assetklasse</th>
+									<th>Sektor</th>
+									<th>Land</th>
+									<th>Währung</th>
+									<th>Aktueller Kurs </th>
+									<th>Aktueller Buchgewinn</th>
+								</tr>
+							</thead>
+								<tbody>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								</tbody>
+							</table>
 
-											</tr>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+						</div>
 
-											</tr>
-											<tr>
-												<td>2021-04-05</td>
-												<td>1</td>
-												<td>Asset</td>
-												<td>Long</td>
-												<td>Birlen Trading Center</td>
-												<td>2</td>
-												<td>500 $</td>
-												<td>400 $</td>
-												<td>900 €</td>
-												<td>2021-04-05</td>
-												<td>The best Service</td>
-												<td>Asset Class</td>
-												<td>sector</td>
-												<td>USA</td>
-												<td>Doller</td>
-												<td>5.4</td>
-												<td>100 $</td>
+						<div id="menu1" class="tab-pane fade">
+							<table class="table table-striped">
+								<thead>
+								<tr>
+									<th>Datum Orderplatzierung</th>
+									<th>ISIN</th>
+									<th>Asset</th>
+									<th>Handelsplatz</th>
+									<th>Stücke</th>
+									<th>Long / Short</th>
+									<th>Kaufkurs</th>
+									<th>Investitionssumme</th>
+									<th>Umrechnung in Euro</th>
+									<th>Datum Orderausführung </th>
+									<th>Kommentar</th>
+									<th>Assetklasse</th>
+									<th>Sektor</th>
+									<th>Land</th>
+									<th>Währung</th>
+									<th>Aktueller Kurs </th>
+									<th>Aktueller Buchgewinn</th>
+								</tr>
+							</thead>
+								<tbody>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								</tbody>
+							</table>   
+						</div>
 
-											</tr>
-											</tbody>
-									</table>
-								</div>	
-							</div>
-						    <div class="col-lg-3"></div>
-					    </div>
-					 </div>	
-
-						
-				<!-- </div> -->
-
-			
-
-				<div class="center">
-
-					<div class="center_inner">					
-				
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div><!-- end row push -->
-
-		<!-- <footer class="row">
-
-			<div class="center">
-
-				<div class="center_inner">
-
-					<div class="footer_top clearfix">
-
-						<a href="./" title="zur Startseite" class="logo_footer"><img src="include/images/logo.png" width="129" height="53" alt="FORMATIONSTRADER Logo"></a>
-
-						<nav class="social_nav clearfix">
-
-							<ul>
-
-								<li><a href="mailto:kontakt@formationstrader.de" class="mail no_transit" title="E-Mail an Formationstrader"></a></li>
-
-								<li><a href="http://www.facebook.com/share.php?u={{env::host}}/{{env::request}}&amp;t=Check out this site" class="facebook no_transit" title="Share this on facebook" target="_blank"></a></li>
-
-								<li><a href="http://twitter.com/home?status=Check out this site:{{env::host}}/{{env::request}}" class="twitter no_transit" title="Tweet this" target="_blank"></a></li>
-
-								<li><a href="https://plus.google.com/share?url={{env::host}}/{{env::request}}" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="google no_transit" title="Share on Google+"></a></li>
-
-							</ul>
-
-						</nav>
-
-					</div>
-
-					<div class="footer_bottom clearfix">
-
-						<div class="footer_nav_1">
-
+						<div id="menu2" class="tab-pane fade">
+						<table class="table table-striped">
+								<thead>
+								<tr>
+									<th>Datum Orderplatzierung</th>
+									<th>ISIN</th>
+									<th>Asset</th>
+									<th>Handelsplatz</th>
+									<th>Stücke</th>
+									<th>Long / Short</th>
+									<th>Kaufkurs</th>
+									<th>Investitionssumme</th>
+									<th>Umrechnung in Euro</th>
+									<th>Datum Orderausführung </th>
+									<th>Kommentar</th>
+									<th>Assetklasse</th>
+									<th>Sektor</th>
+									<th>Land</th>
+									<th>Währung</th>
+									<th>Aktueller Kurs </th>
+									<th>Aktueller Buchgewinn</th>
+								</tr>
+								</thead>
+							<tbody>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+							</tbody>
+						</table>  
+						</div>
 					
-
-						</div>
-
-						<div class="footer_nav_2">
-
-							
-
-						</div>						
-
-						<div class="footer_nav_4">
-
-							<p>Copyright &copy; {{date::Y}} Formationstrader<br>All rights reserved.<span class="break"><br>&nbsp;</span><br><a href="impressum.html" class="orange">Impressum</a></p>
-
-						</div>
-
-						<div class="footer_nav_3">
-
-							<p>Kontakt<br>Dr. Hamed Esnaashari<br><a href="mailto:kontakt@formationstrader.de" class="orange">kontakt@formationstrader.de</a></p>
-
-						</div>
-
+						<div id="menu3" class="tab-pane fade">
+						<!-- <table class="table table-striped">
+								<thead>
+								<tr>
+									<th>Datum Orderplatzierung</th>
+									<th>ISIN</th>
+									<th>Asset</th>
+									<th>Handelsplatz</th>
+									<th>Stücke</th>
+									<th>Long / Short</th>
+									<th>Kaufkurs</th>
+									<th>Investitionssumme</th>
+									<th>Umrechnung in Euro</th>
+									<th>Datum Orderausführung </th>
+									<th>Kommentar</th>
+									<th>Assetklasse</th>
+									<th>Sektor</th>
+									<th>Land</th>
+									<th>Währung</th>
+									<th>Aktueller Kurs </th>
+									<th>Aktueller Buchgewinn</th>
+								</tr>
+								</thead>
+							<tbody>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+								<tr>
+									<td>2021-04-05</td>
+									<td>1</td>
+									<td>Asset</td>
+									<td>Long</td>
+									<td>Birlen Trading Center</td>
+									<td>2</td>
+									<td>500 $</td>
+									<td>400 $</td>
+									<td>900 €</td>
+									<td>2021-04-05</td>
+									<td>The best Service</td>
+									<td>Asset Class</td>
+									<td>sector</td>
+									<td>USA</td>
+									<td>Doller</td>
+									<td>5.4</td>
+									<td>100 $</td>
+								</tr>
+							</tbody>
+						</table>  -->
+						<p>hvcjsdhvbsdkvcbd</p>
+					    </div>
 					</div>
-
 				</div>
+		 </div>		
+			<!-- end row push -->
 
-			</div>
-
-		</footer> -->
 <!-- Footer -->
 <!-- Footer -->
 <!-- Footer -->
@@ -551,7 +729,13 @@
 </script> --> 
 
 <!-- End Google Analytics -->
-
+<script>
+$(document).ready(function(){
+ $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script> 
 </body>
 
 </html>
