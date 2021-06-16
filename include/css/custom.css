@@ -12,7 +12,7 @@
 .teaserbox-div P{
     font-size: large;
 }
-  /* @media only screen and (max-width: 375px) {
+   @media only screen and (max-width: 375px) {
     .tbable-width{
         width: 18% !important;
     }
@@ -41,5 +41,5 @@
        margin-left: 12px !important;
        padding: 12px;
    }
-  } */
+  } 
 

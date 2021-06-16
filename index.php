@@ -118,8 +118,8 @@
 					</div> -->
 					<div class="main-div">
 						<div class="row">
-						   <div class="col-lg-1 col-md-1 col-sm-1"></div>
-							<div class="col-lg-8 col-md-8 col-sm-8">
+						   <!-- <div class="col-lg-1 col-md-1 col-sm-1"></div> -->
+							<div class="col-lg-10 col-md-10 col-sm-10">
 								<div class="table-responsive tbable-width">
 									<table class="table table-striped">
 											<thead>
@@ -226,7 +226,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-1 col-md-1 col-sm-1"></div>
+							<!-- <div class="col-lg-1 col-md-1 col-sm-1"></div> -->
 					    </div>
 					 </div>	
 
